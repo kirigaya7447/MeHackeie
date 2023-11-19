@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+
+<head>
+    <title>Relax...</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../Style/style.css">
+    <script src="../Style/javascript.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="menu" class="offset-4 col-md-4 col-lg-4">
+                <h5>Escolha o que mais lhe agrada e vá navegando:</h5>
+                <a href="../index.html">Cidades do Brasil</a>
+                <br>
+                <br>
+                <a href="../Jogos/index.html">Jogos mais gostosos(e que dá para piratear)</a>
+                <br>
+                <br>
+                <a href="../Filmes/index.html">Filmes mais famosos e inteligentes</a>
+                <br>
+                <br>
+                <a href="../Livros/index.html">Top livros para deixar a consciência viajada</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-4 col-md-4 col-lg-4">
+                <div id="tipoPessoal">
+                    <h3>Qual o seu tipo de descanso?</h3>
+                    <button type="button" onclick="trocarDescanso(1)">Sou da selva</button>
+                    <button type="button" onclick="trocarDescanso(2)">Sou do mar</button>
+                    <button type="button" onclick="trocarDescanso(3)">Sou do espaço</button>
+                    <button type="button" onclick="trocarDescanso(4)">Sou do céu</button>
+                    <button type="button" onclick="trocarDescanso(5)">Quero algo diferente</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-3 col-md-6 col-lg-6">
+                <div id="divSelva" hidden="true">
+                    <iframe width="900" height="650" src="https://www.youtube.com/embed/UxhDlsH0cGU?si=kYbf0KYQ2Q2Ej1rf"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                        <a href="https://www.youtube.com/embed/UxhDlsH0cGU?si=kYbf0KYQ2Q2Ej1rf" target="_blank">Melhor experiência</a>
+                </div>
+
+                <div id="divMar" hidden="true">
+                    <iframe width="900" height="650" src="https://www.youtube.com/embed/7Lm2skxgM6E?si=xRNJ_VGHQMQfuzPb"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                        <a href="https://www.youtube.com/embed/7Lm2skxgM6E?si=xRNJ_VGHQMQfuzPb" target="_blank">Melhor experiência</a>
+                </div>
+
+                <div id="divEspaco" hidden="true">
+                    <iframe width="900" height="650" src="https://www.youtube.com/embed/x-4d6K-sk6I?si=LjVls10KaonmJOFZ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                        <a href="https://www.youtube.com/embed/x-4d6K-sk6I?si=LjVls10KaonmJOFZ" target="_blank">Melhor experiência</a>
+                </div>
+
+                <div id="divNuvens" hidden="true">
+                    <iframe width="900" height="650" src="https://www.youtube.com/embed/H2_pj6csS4E?si=uHflrUUhDb7m5J_S"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                        <a href="https://www.youtube.com/embed/H2_pj6csS4E?si=uHflrUUhDb7m5J_S" target="_blank">Melhor experiência</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

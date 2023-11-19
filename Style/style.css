@@ -1,0 +1,78 @@
+#apresentacao {
+    text-align: center;
+}
+
+.images {
+    height: 490px;
+    width: 780px;
+}
+
+#divImages {
+    display: inline;
+}
+
+#menu {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/*Dos filmes*/
+#divFilmes {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sceneFilmes{
+    height: 450px;
+    width: 700px;
+}
+
+.capaFilmes {
+    height: 500px;
+    width: 320px;
+}
+
+/*Dos jogos*/
+#divJogos {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.capaJogos {
+    height: 350px;
+    width: 240px;
+}
+
+.sceneJogos {
+    height: 300px;
+    width: 390px;
+}
+
+/*Dos livros*/
+#divLivros{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.livro {
+    height: 500px;
+    width: 325px;
+}
+
+#tipoPessoal{
+    margin-bottom: 70px;
+}
+
+#admin{
+    text-align: center;
+}
+
+#alert{
+    height: 450px;
+    width: 600px;
+}
+
+/*Acho que você deve estar procurando algo lá no javascript.js*/
+
+/*@joao15040*/
